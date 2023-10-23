@@ -1,0 +1,14 @@
+.divContact{
+    background-color: rgba(0, 0, 0, 0.8);
+    color:white;
+    padding: 40px;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+    height: 300px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 5px;
+}
