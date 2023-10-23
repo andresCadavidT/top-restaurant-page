@@ -1,6 +1,11 @@
 import home from "./home.js"
 import menu from "./menu.js"
 import contact from "./contact.js"
+import "./assets/global-style.css"
+import "./assets/home.css"
+import "./assets/menu.css"
+import "./assets/contact.css"
+
 
 function clearDivDOM(){
     const contentDivDOM = document.querySelector("#content")

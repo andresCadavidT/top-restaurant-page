@@ -14,7 +14,7 @@ body{
 
 body::before{
     content: "";
-    background-image: url(../dist/lobby.jpg);
+    background-image: url(lobby.jpg);
     background-size: cover;
     opacity: 0.7;
     position: absolute;
@@ -27,8 +27,8 @@ body::before{
 
 @font-face {
     font-family: 'restaurantitalic';
-    src: url('../dist/restaurant-italic-webfont.woff2') format('woff2'),
-        url('../dist/restaurant-italic-webfont.woff') format('woff');
+    src: url('restaurant-italic-webfont.woff2') format('woff2'),
+        url('restaurant-italic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }

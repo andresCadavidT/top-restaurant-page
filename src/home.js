@@ -1,8 +1,10 @@
+import homeChefJPG from "./assets/home-chef.jpg"
+
 export default function home() {
     const h2 = document.createElement("h2")
     h2.textContent = "Sabores Deliciosos, Restaurante"
     const homeChef = document.createElement("img")
-    homeChef.src = "../dist/home-chef.jpg"
+    homeChef.src = homeChefJPG
     homeChef.className = "homeChef"
     const p = document.createElement("p")
     p.textContent = "¡Bienvenido a 'Sabores Deliciosos'! Situado en el corazón de la ciudad, somos conocidos por deleitar a nuestros comensales con una experiencia culinaria única. Nuestro chef galardonado combina ingredientes frescos y técnicas innovadoras para crear platos que deleitan los sentidos. Desde nuestras exquisitas entradas hasta nuestros postres irresistibles, cada bocado es una explosión de sabores. Nuestro ambiente acogedor y servicio excepcional hacen que cada visita sea memorable. Únete a nosotros y descubre por qué 'Sabores Deliciosos' es el destino preferido para los amantes de la buena comida en la ciudad."

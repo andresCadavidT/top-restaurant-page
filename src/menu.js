@@ -1,23 +1,29 @@
+import menu1 from "./assets/menu1.jpg"
+import menu2 from "./assets/menu2.jpg"
+import menu3 from "./assets/menu3.jpg"
+import menu4 from "./assets/menu4.jpg"
+
+
 export default function menu(){
     const p1 = document.createElement("p")
     p1.textContent = "Brochetas de carne y chorizo ​​glaseadas con vino tinto"
     const img1 = document.createElement("img")
-    img1.src = "../dist/menu1.jpg"
+    img1.src = menu1
 
     const p2 = document.createElement("p")
     p2.textContent = "Pollo Crujiente Al Limón"
     const img2 = document.createElement("img")
-    img2.src = "../dist/menu2.jpg"
+    img2.src = menu2
 
     const p3 = document.createElement("p")
     p3.textContent = "Nuestro Cheesy Bubble & Squeak en una sartén es el objetivo absoluto del brunch"
     const img3 = document.createElement("img")
-    img3.src = "../dist/menu3.jpg"
+    img3.src = menu3
 
     const p4 = document.createElement("p")
     p4.textContent = "Risotto de cebada perlada y jamón y guisantes"
     const img4 = document.createElement("img")
-    img4.src = "../dist/menu4.jpg"
+    img4.src = menu4
 
     const divRecipe1 = document.createElement("div")
     divRecipe1.classList = "divRecipe";
